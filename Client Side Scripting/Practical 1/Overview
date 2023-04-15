@@ -7,3 +7,15 @@ Objectives of Practical 1:
     4. To Embedding JavaScript in HTML
     5. TO use Comments
     6. To implement Operators
+
+Question:
+
+    Q.1 Write a Code to implement following concept:
+        1. To Create Basic HTML Page.
+        2. To Use No Script Tag, Script Tag & Embedding in HTML.
+
+    Q.2  Write a Code to check whether a person is eligible for Driving License or not. Assume the age and check condition for both Car and Bike License types. Also, test the condition if a person has to give a written test or not. Use the concept of Operators in JS to write code.
+    
+    Note: 
+        1. Wite all JS Code under single Filename.
+        2. Write all HTML under single File name.

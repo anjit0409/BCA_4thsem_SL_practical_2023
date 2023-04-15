@@ -1,29 +1,69 @@
 
-Objectives of Practical 1:
-    1. To Create Basic HTML Page
-    2. To Use Script Tag
-    3. TO use No Script Tag
-    4. To Embedding JavaScript in HTML
-    5. TO use Comments
-    6. To implement Operators
+Practical 1:
+
+    Q.1 Write a Code to implement following concept:
+        1. To Create Basic HTML Page.
+        2. To Use No Script Tag, Script Tag & Embedding in HTML.
+
+    Q.2  Write a Code to check whether a person is eligible for Driving License or not. Assume the age and check condition for both Car and Bike License types. Also, test the condition if a person has to give a written test or not. Use the concept of Operators in JS to write code.
     
-Objectives of Practical 2:
-    1. To implement Control Structures in JS
-    2. To implement Break and Continue in JS
-
-Objectives of Practical 3:
-
-    1. To implement array in JS.
-    2. To implement array methods in JS.
-    3. To implement foreach loop in array of JS.
+    Note: 
+        1. Wite all JS Code under single Filename.
+        2. Write all HTML under single File name.
 
 
-Objectives of Practical 4:
+Practical 2:
 
-    1. To implement JS Functions including Arrow Function.
+    Q.1 Suppose you're developing a website that sells products online. You need to implement a feature that 
+        applies discounts to products based on the user's membership level. 
+        Here are the membership levels and the discounts associated with them:
+            Basic: 5% off
+            Premium: 10% off
+            Gold: 15% off
+        Write a JavaScript code that takes two parameters: the product price and the user's membership level. 
+        The function should calculate the discounted price based on the membership level and return it. 
+        If the membership level is not one of the three specified levels, the function should return the original price without any discount.
 
 
-Objectives of Practical 4:
+    Q.2 Write a JavaScript code that takes an array of integers as a parameter, uses a loop to iterate over the array, and returns the sum of all even integers in the array. 
 
-    1. To implement Built In Objects of JS.
-  
+
+Practical 3:
+
+    Q.1: Write a JavaScript code that takes an array of integers as a parameter, uses a foreach loop to     iterate over the array, and returns the sum of all even integers in the array.
+
+    Q.2: Write a JavaScript Code to create an associative array and iterate over it to display its value in descriptive way.
+
+
+Practical 4:
+
+    Q.1: Write a JS Code to define Arrow Function to preform different mathermatic operations.
+
+
+Practical 5:
+
+    Q.1: Write a code to implement various types of Built in Object in JS (Array, Date, Math, Number & String). Implement it and provide its output. Use comment for code explanation if required. 
+
+
+Practical 6:
+
+    Q.1: Wite a code of all the methods for interaction with Browsers, Windows and Frames in JS.
+         Use comments for code explanation if required. :
+
+
+Practical 7:
+
+    Q.1: Write a code to implement Javascript DOM. Create your own logical scenario and use the concept. 
+    Write comments for code explanation.
+
+
+Practical 8:
+
+    Q.1: Write a code to perform CRUD Operation on JS Cookies using different Event Handlers.
+
+
+Practical 9:
+
+    Q.1: Create a form to insert details (Title, Email, Content, Phone Number, etc) and apply
+        HTML Inline Form Validation, JS Client Side Validation including Regular Expression.
+    

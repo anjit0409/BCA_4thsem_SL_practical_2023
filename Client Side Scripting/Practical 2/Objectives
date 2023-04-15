@@ -3,3 +3,20 @@ Objectives of Practical 2:
 
     1. To implement Control Structures in JS
     2. To implement Break and Continue in JS
+
+
+Questions for Practical:
+
+Q.1 Suppose you're developing a website that sells products online. You need to implement a feature that 
+    applies discounts to products based on the user's membership level. 
+    Here are the membership levels and the discounts associated with them:
+        Basic: 5% off
+        Premium: 10% off
+        Gold: 15% off
+    Write a JavaScript code that takes two parameters: the product price and the user's membership level. 
+    The function should calculate the discounted price based on the membership level and return it. 
+    If the membership level is not one of the three specified levels, the function should return the original price without any discount.
+
+
+Q.2 Write a JavaScript code that takes an array of integers as a parameter, uses a loop to iterate over the array, 
+    and returns the sum of all even integers in the array. 

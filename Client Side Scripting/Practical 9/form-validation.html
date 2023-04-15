@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript Validation</h2>
+    <p>Please input a number between 1 and 10:</p>
+
+    <form action="/" method="GET" onsubmit="validationFunction();">
+        Number Here: <input id="numb" type="number"> <br><br>
+        Text Here: <textarea minlength="10" maxlength="50"></textarea>
+
+        <br><br><button type="submit">Submit</button>
+        
+    </form>
+
+
+    <p id="demo"></p>
+
+
+    <script>
+        function validationFunction() {
+            // Get the value of the input field with id="numb"
+            let x = document.getElementById("numb").value;
+            // If x is Not a Number or less than one or greater than 10
+            let text;
+
+            if (isNaN(x) || x < 1 || x > 10) {
+                text = "Input not valid";
+            } else {
+                text = "Input OK";
+            }
+            document.getElementById("demo").innerHTML = text;
+
+            event.preventDefault();
+        }
+
+
+        function ValidateEmail(mail) {
+            if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)) {
+            return (true)
+            }
+            alert("You have entered an invalid email address!")
+            return (false)
+        }
+
+   var mail = "back.gmail.com";
+   document.write("Email Validation Status: "+ ValidateEmail(mail));
+
+
+
+    </script>
+
+</body>
+
+</html>

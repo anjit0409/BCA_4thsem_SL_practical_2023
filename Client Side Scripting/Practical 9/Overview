@@ -1,0 +1,12 @@
+
+Objectives of Practical 9:
+
+    1. To implement the concept of Regular Expression and Client Side Validation.
+
+
+    
+Questions for Practical:
+
+    Q.1: Create a form to insert details (Title, Email, Content, Phone Number, etc) and apply
+        HTML Inline Form Validation, JS Client Side Validation including Regular Expression.
+    

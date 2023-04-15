@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script>
+         var myWindow;
+
+        window.onload = function(){
+            alert("Hello from Window On load Event Handlier (window.onload) ")
+        }
+        
+       function setCookies() {
+             document.cookie = "username=Reliance; expires=Thu, 1 May 2023 12:00:00 UTC; path=/";
+       }
+       function UpdateCookies() {
+            document.cookie = "username=Reliance; expires=Thu, 1 June 2023 12:00:00 UTC; path=/";
+       }
+       function deleteCookies() {
+             document.cookie = "username=Reliance; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
+
+       }
+
+       function onFormSubmit(){
+
+        var result = window.confirm('Shall I Reload Page');
+            if (result === true) {
+                window.reload();
+            } 
+            else window.alert('You seem uncertain.'); 
+       }
+
+
+       function onKeyPressTest(){
+
+            alert("Hey! You Pressed a Key on your Keyboard.");
+
+        }
+
+
+
+
+
+   </script>
+</head>
+
+
+<body>
+
+    <form onsubmit="onFormSubmit()">
+
+        <input type="button" value="Set Cookies" onclick="setCookies()" />
+        <input type="button" value="Update Cookies" onmouseover="UpdateCookies()" />
+        <input type="button" value="Delete Cookies" onmouseover="deleteCookies()" />
+
+        <input type="text" Placeholder="Try Key Press Event" onkeypress="onKeyPressTest()" />
+
+        <input type="submit" value="On Submit"/>
+
+    </form>
+</body>
+
+</html>

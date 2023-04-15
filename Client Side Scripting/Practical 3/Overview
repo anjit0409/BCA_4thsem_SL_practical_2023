@@ -4,3 +4,10 @@ Objectives of Practical 3:
     1. To implement array in JS.
     2. To implement array methods in JS.
     3. To implement foreach loop in array of JS.
+
+
+Questions for Practical:
+
+    Q.1: Write a JavaScript code that takes an array of integers as a parameter, uses a foreach loop to iterate over the array, and returns the sum of all even integers in the array.
+
+    Q.2: Write a JavaScript Code to create an associative array and iterate over it to display its value in descriptive way.

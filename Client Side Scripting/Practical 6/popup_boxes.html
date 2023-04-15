@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+
+    <input type="button" value="Check Alert Box" onclick="checkAlertBox()" />
+    <input type="button" value="Check Confirm Box" onclick="checkConfirmBox()" />
+    <input type="button" value="Check Prompt Box" onclick="checkPromptBox()" />
+
+
+    <script>
+       
+        // ALert Box
+        function checkAlertBox(){
+            window.alert("Welcome to our website"); // Alert
+        }
+
+        //confirm box
+        function checkConfirmBox(){
+            var result = window.confirm('Are you sure?');
+            if (result === true) {
+                window.alert('Okay, if youre sure.');
+            } 
+            else window.alert('You seem uncertain.'); 
+        }
+
+        // Prompt Boc
+        function checkPromptBox(){
+            let text;
+            let person = prompt("Please enter your name:", "Harry Potter");
+
+            if (person == null || person == "") text = "User cancelled the prompt.";
+            else text = "Hello " + person + "! How are you today?";
+            
+            document.write(text);
+        }
+        
+
+    </script>
+</body>
+</html>

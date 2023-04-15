@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script>
+       var myWindow;
+       function openWin() {
+           myWindow = window.open("", "", "width=400, height=200");
+       }
+       function closeWin() {
+           myWindow.close();
+       }
+       function blurWin() {
+           myWindow.blur();
+       }
+       function focusWin() {
+           myWindow.focus();
+       }
+       function printPage() {
+           window.print();
+       }
+   </script>
+</head>
+
+
+<body>
+
+   <input type="button" value="Open 'myWindow'" onclick="openWin()" />
+   <input type="button" value="Close 'myWindow'" onclick="closeWin()" />
+   <input type="button" value="Close 'myWindow'" onclick="focusWin()" />
+   <input type="button" value="Close 'myWindow'" onclick="blurWin()" />
+   <input type="button" value="Close 'myWindow'" onclick="printPage()" />
+
+</body>
+
+</html>

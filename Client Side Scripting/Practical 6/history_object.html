@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script>
+         var myWindow;
+       function historyBack() {
+           history.back();
+       }
+       function historyForward() {
+           history.forward()
+       }
+       function historyGo() {
+           history.go(-2)
+       }
+   </script>
+</head>
+
+
+<body>
+
+    <input type="button" value="Back" onclick="historyBack()" />
+    <input type="button" value="Forward" onclick="historyForward()" />
+    <input type="button" value="Go(-2)" onclick="historyGo()" />
+
+</body>
+
+</html>
