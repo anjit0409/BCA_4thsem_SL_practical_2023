@@ -1,0 +1,59 @@
+Practical 10:
+
+    Q.1: Install Xampp on your computer and execute basic php code implementing any logic you prefer. 
+    
+     Note: Write a installation process and executing steps of php script in localhost.
+
+Practical 11: 
+
+    Q.1: Write a PHP program to determine whether a given year is a leap year or not. The program should take user input from HTML Form then display whether it is a leap year or not.
+
+
+Practical 12: 
+
+    Q.1: Write a PHP program that handles a simple form submission. The form should allow users to enter a  list of names separated by commas. The program should then display the number of names entered, as well as a sorted list of names in alphabetical order.
+
+    Note: Implement the program using PHP's array functions, user-defined functions, and form handling techniques.
+
+
+Practical 13: 
+
+    Q.1: Write a PHP program that reads the contents of a text file, counts the number of words in the file, and displays the word count to the user. Implement the program using PHP's file handling functions.
+
+    Notes:
+        a. Create a text file named "sample.txt" and populate it with some sample text.
+        b. Open the "sample.txt" file in read mode.
+        c. Read the contents of the file and store them in a variable.
+        d. Use PHP string functions to count the number of words in the file.
+        e. Display the word count to the user.
+
+
+    Q.2: Write a PHP program that handles file uploads. The program should allow users to upload a file and display information about the uploaded file, such as the file name, file size, and file type. Save the uploaded file on specific folder in a Xampp Server.
+
+
+Practical 14: 
+
+    Q.1: Write a PHP program that sends an email to a specified recipient using PHP mail function. The program should get the user inputs (recipient's email address, subject, and message body) from HTML Form. After the user submits the form, the program should send the email and display a success message.
+
+    Note: Try to explore PHPMailer Library.
+
+
+Practical 15:
+
+    Q.1: Write a PHP program that implements a login system using sessions to secure a web page. The program should have a login form where users can enter their username and password. Upon successful login, the program should store the user's information in a session and grant access to a secure page. If the user tries to access the secure page without logging in, they should be redirected to the login page.
+
+    Note: 
+        a. Assume a static Username and Password
+        b. Display Invalid Credential Message upon Login Failed.
+
+
+Practical 16:
+
+    Q.1: Write a PHP program that connects to a MySQL database and performs all the CRUD operations: Create, Read, Update, and Delete. The program should allow users to interact with a simple database table by adding new records, displaying existing records, updating records, and deleting records.
+
+    Note:
+        a. Create a Table and Work for CRUD Operation on it.
+        b. Implement the program using PHP's MySQLi extension.
+        c. Try to enhance your code by securing program to Create, Update & Delete using PHP Session.
+            Allow Public User to View Only.
+
