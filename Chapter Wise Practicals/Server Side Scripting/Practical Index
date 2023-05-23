@@ -56,4 +56,3 @@ Practical 16:
         b. Implement the program using PHP's MySQLi extension.
         c. Try to enhance your code by securing program to Create, Update & Delete using PHP Session.
             Allow Public User to View Only.
-
