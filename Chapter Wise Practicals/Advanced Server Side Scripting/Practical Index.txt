@@ -1,4 +1,4 @@
-Practical 1:
+Practical 17:
 
     Q.1: Write PHP code to implement the Product and ShoppingCart classes according to the given scenario. 
     Include the necessary properties, methods, and any other OOP Feature to fulfill the requirements.
