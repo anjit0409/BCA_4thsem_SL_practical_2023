@@ -40,7 +40,7 @@ Practical 14:
 
 Practical 15:
 
-    Q.1: Write a PHP program that implements a login system using sessions to secure a web page. The program should have a login form where users can enter their username and password. Upon successful login, the program should store the user's information in a session and grant access to a secure page. If the user tries to access the secure page without logging in, they should be redirected to the login page.
+    Q.1: Write a PHP program that implements a login system using sessions to secure a web page. The program should have a login form where users can enter their username and password. Upon successful login, the program should store the user's information in a session and grant access to a secure page. If the user tries to access the secured page without logging in, they should be redirected to the login page.
 
     Note: 
         a. Assume a static Username and Password

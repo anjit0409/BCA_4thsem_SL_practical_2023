@@ -1,0 +1,11 @@
+Practical 10:
+
+    Q.1: Write PHP code to implement the Product and ShoppingCart classes according to the given scenario. 
+    Include the necessary properties, methods, and any other OOP Feature to fulfill the requirements.
+
+        Scenario: You are building a simple online store application. 
+        The application should have a class representing a product, and another class representing a shopping cart. 
+        Each product should have a name, price, and quantity available. The shopping cart should be able to add 
+        products, remove products, calculate the total cost, and display the contents of the cart.
+
+
