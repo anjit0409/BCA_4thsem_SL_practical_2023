@@ -9,3 +9,13 @@ Practical 17:
         products, remove products, calculate the total cost, and display the contents of the cart.
 
 
+    Q.2: Write a HTML JS code to which collects Product Details from a simple HTML Form and Submit it using the concept
+    of AJAX and Perform a CRUD operation. 
+
+        Scenario:  You are building a simple webpage which allows user to add product details and you will be 
+        submiting the form through AJAX without reloading page. Also, Below the form you will list out the 
+        products and allow users to delete and update the product through AJAX. Through this you will building
+        complete SPA based Web Page.
+
+    Q.3: Write a HTML JS code to which implements the concept of JQuery. Play with some JS Events using JQuery
+    Library on your web page to make it more interactive.
